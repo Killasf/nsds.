@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 200px;
+    background-color:rgb(85, 5, 5);
+    background-image: linear-gradient(to right, #570000,#371e1e, #3f0b0b);
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+li, a{
+    width: 9%;
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+header button{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0);
+    background-image: linear-gradient(to right, #120A02, #8D2B12);
+    color: #fff;
+    width: 192px;
+    height: 45px;
+    cursor: pointer;
+    border: 0;
+}
+header a{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    
+}
+.logo{
+    width: 17%;
+    height: 100%;
+    display: flex;
+}
+body{
+    background-image: url(img/fon8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.line{
+    height: 1px;
+    background-image: url(img/line1.svg);
+}
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.history1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    background-image: url(img/Fon_stoika.svg);
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 150px;
+}
+.history1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    font-size: 36px;
+}
+.history1 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 80%;
+    font-size: 25px;
+    padding: 10px;
+    height: 100%;
+}
+.videobasket{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videobasket iframe{
+    width: 60%;
+    height: 70%;
+    border: 5px solid rgb(55, 50, 50);
+    border-radius: 30px;
+}
+.effect{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+@keyframes animation{
+
+0%{
+    margin-left: -100%;
+}
+100%{
+    margin-left: 0px;
+}
+}
+@keyframes animation1{
+
+    0%{
+        margin-left: 5000px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+    }
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #120A02;
+  color: white;
+}
+    .reviews{
+        width: 25%;
+        height: 100%;
+        background-image: url(img/reviews.svg);
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .reviews>p{
+    width: 100%;
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    color: white;
+    }
+    .fonreviews{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+    }.fonreviews1{
+        resize: none;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 12px;
+        font-size: 19px;
+        color: black;
+    }
+
+
+    .button1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button1>button{
+    width: 170px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #676262;
+    color: white;
+    font-size: 15px;
+    }
+    .Contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact p{
+        display: flex;
+        width: 100%;
+        height: 70%; 
+    }
+
+
+    @media (max-width: 795px){
+      .videobasket{
+        height: 400px;
+      }  
+      .footer{
+        height: 200px;
+      }
+      .reviews p{
+        font-size: 16px;
+      }
+      .telega1{
+        width: 10px;
+        margin-top: 3px;
+      }
+      .fonreviews{
+        height: 50px;
+        width: 180px;
+      }
+      .fonreviews1{
+        height: 50px;
+        width: 100%;
+      }
+      .contact p{
+        font-size: 16px;
+        width: 120px;
+      }
+      .history1 h1{
+        font-size: 22px;
+      }
+      .history1 p{
+        font-size: 17px;
+      }
+      .logo img{
+        width: 130px;
+      }
+      header{
+        height: 120px;
+      }
+      .li1 button{
+        width: 70px;
+        height: 35px;
+      }
+      .li1 a{
+        font-size: 12px;
+      }
+      .li1 img{
+        width: 40px;
+      }
+      ul{
+        gap: 15px;
+      }
+    }
+
+
+    
+
+
+
+
+
+
+
+      
+        
+      
+      
